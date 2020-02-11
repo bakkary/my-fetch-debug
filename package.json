@@ -1,0 +1,19 @@
+{
+  "name": "@bakkary/node_fetch",
+  "version": "0.0.0",
+  "description": "I umd.js filen skal der tilføjes endnu et fallback til de 4 HTTP metoder, vi allerede har skrevet: myFetch.post(), myFetch.get(), myFetch.put() og myFetch.del().",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bakkary",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " npm publish --access public"
+  }
+}
