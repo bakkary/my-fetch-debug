@@ -3,22 +3,22 @@
  * 
  * **/
 
-(function (root, factory) {
-	// AMD
+(function (factory) {
+
 	if (typeof define === "function" && define.amd) {
 		define(["jquery"], factory);
-		// CommonJS
-	} else if (typeof exports === "object") {
+
+	} else (typeof exports === "object") {
 		module.exports = factory(require("jquery"));
-		// Browser context
+
 	} else {
-		root.myFetch = factory(root.jquery);
+		root.myFetch = (root.jquery);
 	}
 }(this, function ($) {
-	// vores egen del af modulet
+
 	function init(options) {
-		this.APIAddress = options.address;
-		this.APIKey = options.key;
+		this.APIAddress = options.
+			this.APIKey = options.key;
 		return this;
 	}
 
